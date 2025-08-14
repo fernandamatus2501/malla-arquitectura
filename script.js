@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { "codigo": "110064", "nombre": "Gestión de Proyectos", "creditos": 4, "año": 3, "semestre": 6, "prerrequisitos": [] },
         { "codigo": "110065", "nombre": "Diseño Bioclimático II", "creditos": 4, "año": 3, "semestre": 6, "prerrequisitos": ["110048"] },
         { "codigo": "110066", "nombre": "Urbanismo III", "creditos": 4, "año": 3, "semestre": 6, "prerrequisitos": ["110055"] },
-        { "codigo": "110067", "nombre": "Fundamentos de arquitectura III", "creditos": 3, "año": 6, "semestre": 4, "prerrequisitos": ["110056"] },
+        { "codigo": "110067", "nombre": "Fundamentos de arquitectura III", "creditos": 4, "año": 3, "semestre": 6, "prerrequisitos": ["110056"] },
         { "codigo": "4", "nombre": "Formacion Integral Extra IV", "creditos": 2, "año": 3, "semestre": 6, "prerrequisitos": [] },
 
         // Año 4
