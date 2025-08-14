@@ -2,9 +2,9 @@
 :root {
     --color-primario: #F25278; /* principal */
     --color-secundario: #F28930; /* Naranja */
-    --color-fondo: #f4f4f9;
+    --color-fondo: #FCF9F5;
     --color-texto: #333;
-    --color-aprobado: #04A777; /* Para indicar aprobación */
+    --color-aprobado: #EA899A; /* Para indicar aprobación */
     --color-aprobado-texto: #fff;
     --color-borde: #ddd;
     --fuente-principal: 'Josefin Sans', sans-serif;
