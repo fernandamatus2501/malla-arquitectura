@@ -103,7 +103,7 @@ header h1 {
 /* --- Estado Aprobado de un Ramo --- */
 .ramo.aprobado {
     background-color: var(--color-aprobado);
-    border-left: 5px solid #ffdab0;
+    border-left: 5px solid var #ffdab0;
     color: var(--color-aprobado-texto);
 }
 
