@@ -6,7 +6,7 @@
     --color-texto: #333;
     --color-aprobado: #EA899A; /* Para indicar aprobación */
     --color-aprobado-texto: #fff;
-    --color-borde: #FFCA69;
+    --color-borde: #ddd;
     --fuente-principal: 'Josefin Sans', sans-serif;
 }
 
@@ -75,7 +75,7 @@ header h1 {
 .ramo {
     background-color: #fff;
     border: 1px solid var(--color-borde);
-    border-left: 5px solid var(--color-secundario);
+    border-left: 5px solid var #dde6a4
     border-radius: 8px;
     padding: 12px;
     cursor: pointer;
@@ -103,7 +103,7 @@ header h1 {
 /* --- Estado Aprobado de un Ramo --- */
 .ramo.aprobado {
     background-color: var(--color-aprobado);
-    border-left: 5px solid #038C5A;
+    border-left: 5px solid #ffdab0;
     color: var(--color-aprobado-texto);
 }
 
