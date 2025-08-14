@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { "codigo": "220163", "nombre": "Matemáticas", "creditos": 4, "año": 1, "semestre": 1, "prerrequisitos": [] },
         { "codigo": "110040", "nombre": "Historia de la Arquitectura I", "creditos": 4, "año": 1, "semestre": 1, "prerrequisitos": [] },
         { "codigo": "340280", "nombre": "Inglés Comunicacional I", "creditos": 2, "año": 1, "semestre": 1, "prerrequisitos": [] },
-        { "codigo": "350281", "nombre": "Formacion Integral", "creditos": 2, "año": 1, "semestre": 2, "prerrequisitos": [] },
+        { "codigo": "350281", "nombre": "Formacion Integral", "creditos": 2, "año": 1, "semestre": 1, "prerrequisitos": [] },
         
         { "codigo": "110039", "nombre": "Taller de Proyectos II", "creditos": 10, "año": 1, "semestre": 2, "prerrequisitos": ["110036"] },
         { "codigo": "110041", "nombre": "Repr. Arquitectónica II", "creditos": 4, "año": 1, "semestre": 2, "prerrequisitos": ["110037"] },
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { "codigo": "110049", "nombre": "Estructuras II", "creditos": 4, "año": 2, "semestre": 3, "prerrequisitos": ["110043"] },
         { "codigo": "110050", "nombre": "Historia de la Arquitectura II", "creditos": 4, "año": 2, "semestre": 3, "prerrequisitos": ["110040"] },
         { "codigo": "340282", "nombre": "Inglés Comunicacional III", "creditos": 2, "año": 2, "semestre": 3, "prerrequisitos": ["340281"] },
-        { "codigo": "2", "nombre": "Formacion Integral Extra II", "creditos": 2, "año": 1, "semestre": 2, "prerrequisitos": [] },
+        { "codigo": "2", "nombre": "Formacion Integral Extra II", "creditos": 2, "año": 2, "semestre": 3, "prerrequisitos": [] },
         
         { "codigo": "110051", "nombre": "Taller de Proyectos IV", "creditos": 10, "año": 2, "semestre": 4, "prerrequisitos": ["110046"] },
         { "codigo": "110052", "nombre": "Representación arquitectonica IV", "creditos": 4, "año": 2, "semestre": 4, "prerrequisitos": [110047] },
@@ -46,15 +46,15 @@ document.addEventListener('DOMContentLoaded', () => {
         { "codigo": "110059", "nombre": "Edificación IV", "creditos": 4, "año": 3, "semestre": 5, "prerrequisitos": ["110053"] },
         { "codigo": "110060", "nombre": "Diseño en Madera", "creditos": 4, "año": 3, "semestre": 5, "prerrequisitos": ["110054"] },
         { "codigo": "110061", "nombre": "Historia de la Arquitectura lll", "creditos": 4, "año": 3, "semestre": 5, "prerrequisitos": ["110050"] },
-        { "codigo": "3", "nombre": "Formacion Integral Extra III", "creditos": 2, "año": 1, "semestre": 2, "prerrequisitos": [] },
+        { "codigo": "3", "nombre": "Formacion Integral Extra III", "creditos": 2, "año": 3, "semestre": 5, "prerrequisitos": [] },
 
         { "codigo": "110062", "nombre": "Taller de proyecto VI", "creditos": 10, "año": 3, "semestre": 6, "prerrequisitos": ["110057"] },
         { "codigo": "110063", "nombre": "Representación arquitectónica VI", "creditos": 4, "año": 3, "semestre": 6, "prerrequisitos": ["110058"] },
         { "codigo": "110064", "nombre": "Gestión de Proyectos", "creditos": 4, "año": 3, "semestre": 6, "prerrequisitos": [] },
         { "codigo": "110065", "nombre": "Diseño Bioclimático II", "creditos": 4, "año": 3, "semestre": 6, "prerrequisitos": ["110048"] },
-        { "codigo": "110066", "nombre": "Urbanismo III", "creditos": 4, "año": 2, "semestre": 4, "prerrequisitos": ["110055"] },
-        { "codigo": "110067", "nombre": "Fundamentos de arquitectura III", "creditos": 4, "año": 2, "semestre": 4, "prerrequisitos": ["110056"] },
-        { "codigo": "4", "nombre": "Formacion Integral Extra IV", "creditos": 2, "año": 1, "semestre": 2, "prerrequisitos": [] },
+        { "codigo": "110066", "nombre": "Urbanismo III", "creditos": 4, "año": 3, "semestre": 6, "prerrequisitos": ["110055"] },
+        { "codigo": "110067", "nombre": "Fundamentos de arquitectura III", "creditos": 3, "año": 6, "semestre": 4, "prerrequisitos": ["110056"] },
+        { "codigo": "4", "nombre": "Formacion Integral Extra IV", "creditos": 2, "año": 3, "semestre": 6, "prerrequisitos": [] },
 
         // Año 4
         { "codigo": "110068", "nombre": "Taller de Proyectos VII", "creditos": 10, "año": 4, "semestre": 7, "prerrequisitos": ["110063"] },
