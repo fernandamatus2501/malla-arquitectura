@@ -1,10 +1,10 @@
 /* --- Variables Globales y Estilos Base --- */
 :root {
-    --color-primario: #D90368; /* Fucsia principal */
-    --color-secundario: #FF8906; /* Naranja */
+    --color-primario: #F25278; /* principal */
+    --color-secundario: #F28930; /* Naranja */
     --color-fondo: #f4f4f9;
     --color-texto: #333;
-    --color-aprobado: #04A777; /* Verde para indicar aprobación */
+    --color-aprobado: #04A777; /* Para indicar aprobación */
     --color-aprobado-texto: #fff;
     --color-borde: #ddd;
     --fuente-principal: 'Josefin Sans', sans-serif;
