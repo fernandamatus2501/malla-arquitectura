@@ -1,1 +1,123 @@
+/* --- Variables Globales y Estilos Base --- */
+:root {
+    --color-primario: #D90368; /* Fucsia principal */
+    --color-secundario: #FF8906; /* Naranja */
+    --color-fondo: #f4f4f9;
+    --color-texto: #333;
+    --color-aprobado: #04A777; /* Verde para indicar aprobación */
+    --color-aprobado-texto: #fff;
+    --color-borde: #ddd;
+    --fuente-principal: 'Josefin Sans', sans-serif;
+}
 
+body {
+    font-family: var(--fuente-principal);
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: var(--color-primario);
+    font-weight: 600;
+}
+
+/* --- Contenedor Principal de la Malla --- */
+#malla-curricular-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px auto;
+    overflow-x: auto; /* Permite scroll horizontal en pantallas pequeñas */
+    padding: 10px;
+}
+
+/* --- Columnas de Año y Semestre --- */
+.año-columna {
+    flex: 1;
+    min-width: 280px; /* Ancho mínimo para cada columna de año */
+}
+
+.año-header {
+    background-color: var(--color-primario);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.semestres-container {
+    display: flex;
+    gap: 10px;
+}
+
+.semestre-columna {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.semestre-header {
+    background-color: var(--color-secundario);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 400;
+}
+
+/* --- Estilos de cada Ramo --- */
+.ramo {
+    background-color: #fff;
+    border: 1px solid var(--color-borde);
+    border-left: 5px solid var(--color-secundario);
+    border-radius: 8px;
+    padding: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+.ramo:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.ramo-nombre {
+    font-weight: 600;
+    font-size: 0.95em;
+    margin-bottom: 5px;
+}
+
+.ramo-info {
+    font-size: 0.8em;
+    color: #666;
+}
+
+/* --- Estado Aprobado de un Ramo --- */
+.ramo.aprobado {
+    background-color: var(--color-aprobado);
+    border-left: 5px solid #038C5A;
+    color: var(--color-aprobado-texto);
+}
+
+.ramo.aprobado .ramo-nombre {
+    text-decoration: line-through;
+}
+
+.ramo.aprobado .ramo-info {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* --- Pie de Página --- */
+footer {
+    margin-top: 30px;
+    color: #777;
+    font-size: 0.9em;
+}
