@@ -6,26 +6,29 @@ document.addEventListener('DOMContentLoaded', () => {
     // Cada objeto representa un ramo con su código, nombre, créditos, año, semestre y prerrequisitos.
     const ramosData = [
         // Año 1
+        { "codigo": "110036", "nombre": "Taller de Proyectos I", "creditos": 10, "año": 1, "semestre": 1, "prerrequisitos": [] },
+        { "codigo": "110037", "nombre": "Repr. Arquitectónica I", "creditos": 4, "año": 1, "semestre": 1, "prerrequisitos": [] },
         { "codigo": "110038", "nombre": "Edificación I", "creditos": 4, "año": 1, "semestre": 1, "prerrequisitos": [] },
+        { "codigo": "220163", "nombre": "Matemáticas", "creditos": 4, "año": 1, "semestre": 1, "prerrequisitos": [] },
         { "codigo": "110040", "nombre": "Historia de la Arquitectura I", "creditos": 4, "año": 1, "semestre": 1, "prerrequisitos": [] },
         { "codigo": "340280", "nombre": "Inglés Comunicacional I", "creditos": 2, "año": 1, "semestre": 1, "prerrequisitos": [] },
-        { "codigo": "220163", "nombre": "Matemáticas", "creditos": 4, "año": 1, "semestre": 1, "prerrequisitos": [] },
-        { "codigo": "110037", "nombre": "Repr. Arquitectónica I", "creditos": 4, "año": 1, "semestre": 1, "prerrequisitos": [] },
-        { "codigo": "110036", "nombre": "Taller de Proyectos I", "creditos": 12, "año": 1, "semestre": 1, "prerrequisitos": [] },
+        { "codigo": "350281", "nombre": "Formacion Integral", "creditos": 2, "año": 1, "semestre": 2, "prerrequisitos": [] },
         
+        { "codigo": "110039", "nombre": "Taller de Proyectos II", "creditos": 10, "año": 1, "semestre": 2, "prerrequisitos": ["110036"] },
+        { "codigo": "110041", "nombre": "Repr. Arquitectónica II", "creditos": 4, "año": 1, "semestre": 2, "prerrequisitos": ["110037"] },
         { "codigo": "110042", "nombre": "Edificación II", "creditos": 4, "año": 1, "semestre": 2, "prerrequisitos": ["110038"] },
         { "codigo": "110043", "nombre": "Estructuras I", "creditos": 4, "año": 1, "semestre": 2, "prerrequisitos": ["220163"] },
+        { "codigo": "110044", "nombre": "Fundamento de la Arquitectura", "creditos": 4, "año": 1, "semestre": 2, "prerrequisitos": [] },
         { "codigo": "340281", "nombre": "Inglés Comunicacional II", "creditos": 2, "año": 1, "semestre": 2, "prerrequisitos": ["340280"] },
-        { "codigo": "110041", "nombre": "Repr. Arquitectónica II", "creditos": 4, "año": 1, "semestre": 2, "prerrequisitos": ["110037"] },
-        { "codigo": "110039", "nombre": "Taller de Proyectos II", "creditos": 12, "año": 1, "semestre": 2, "prerrequisitos": ["110036"] },
-        { "codigo": "110044", "nombre": "Teoría de la Arquitectura", "creditos": 4, "año": 1, "semestre": 2, "prerrequisitos": [] },
+        { "codigo": "1", "nombre": "Formacion Integral Extra", "creditos": 2, "año": 1, "semestre": 2, "prerrequisitos": [] },
 
         // Año 2
+        { "codigo": "110049", "nombre": "Taller de Proyectos III", "creditos": 10, "año": 2, "semestre": 3, "prerrequisitos": ["110039"] },
+        { "codigo": "110047", "nombre": "Territorio y Ciudad", "creditos": 4, "año": 2, "semestre": 3, "prerrequisitos": ["110044"] },
         { "codigo": "110048", "nombre": "Diseño Bioclimático I", "creditos": 4, "año": 2, "semestre": 3, "prerrequisitos": [] },
         { "codigo": "110050", "nombre": "Historia de la Arquitectura II", "creditos": 4, "año": 2, "semestre": 3, "prerrequisitos": ["110040"] },
         { "codigo": "340282", "nombre": "Inglés Comunicacional III", "creditos": 2, "año": 2, "semestre": 3, "prerrequisitos": ["340281"] },
-        { "codigo": "110049", "nombre": "Taller de Proyectos III", "creditos": 12, "año": 2, "semestre": 3, "prerrequisitos": ["110039"] },
-        { "codigo": "110047", "nombre": "Territorio y Ciudad", "creditos": 4, "año": 2, "semestre": 3, "prerrequisitos": ["110044"] },
+        
         { "codigo": "110051", "nombre": "Urbanismo I", "creditos": 4, "año": 2, "semestre": 3, "prerrequisitos": ["110044"] },
 
         { "codigo": "110053", "nombre": "Edificación III", "creditos": 4, "año": 2, "semestre": 4, "prerrequisitos": ["110042"] },
